@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{87933E6E-A1E0-42FF-94EC-44A4B1AA86DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E18753F-858A-4D3D-83A7-8A93221B6A9E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "OpenShift1112", "src\OpenShift1112\OpenShift1112.xproj", "{7E456BE9-D689-47CD-A1A1-68086F6D5E7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E456BE9-D689-47CD-A1A1-68086F6D5E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E456BE9-D689-47CD-A1A1-68086F6D5E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E456BE9-D689-47CD-A1A1-68086F6D5E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E456BE9-D689-47CD-A1A1-68086F6D5E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E456BE9-D689-47CD-A1A1-68086F6D5E7E} = {87933E6E-A1E0-42FF-94EC-44A4B1AA86DC}
+	EndGlobalSection
+EndGlobal
